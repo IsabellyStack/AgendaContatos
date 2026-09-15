@@ -19,6 +19,7 @@ public class Uteis {
         System.out.println("4 - Alterar contato");
         System.out.println("5 - Excluir contato");
         System.out.println("6 - Sair");
+        System.out.println("7 - Sobre");
     }
     
     public static int selecionaOpcao(Scanner sc) {
@@ -32,5 +33,9 @@ public class Uteis {
     public static boolean sair() {
     	System.out.println("Saindo da Agenda de Contatos...");
         return false;
+    }
+
+    public static void sobre() {
+        JOptionPane.showMessageDialog(null, "Desenvolvido por Isabelly.");
     }
 }
